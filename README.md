@@ -16,6 +16,7 @@
 - Celery
 - Redis (message broker and result backend)
 - WebSeocket
+- Redoc
 
 
 ## Едпоинты
