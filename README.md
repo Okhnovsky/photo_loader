@@ -29,7 +29,7 @@
 - /schema/
 - /schema/redoc/
 
-Подробное описание методов можно посмотреть в redoc после запуска проекта (127.0.0.1/schema/swagger-ui/). Для входа необходимо будет ввести логин и пароль. Доступно только администраторам.
+Подробное описание методов можно посмотреть в redoc после запуска проекта (127.0.0.1/schema/redoc/).
 
 ## Запуск проекта
 - Клонируем репозиторий
@@ -64,3 +64,4 @@ docker compose exec app_backend python manage.py createsuperuser
 docker compose exec app_backend celery -A app worker -l INFO --detach
 ```
 - Переходим в административную панель http://127.0.0.1/admin/
+- Или сразу на главную: http://127.0.0.1/
