@@ -33,6 +33,9 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "127.0.0.1",
     'app_backend',
+    'localhost',
+    '[::1]',
+    'testserver',
 ]
 
 

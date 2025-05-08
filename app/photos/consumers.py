@@ -15,7 +15,6 @@ class PhotoConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         self.group_name = "photo"
 
-        # Join room
         await self.channel_layer.group_add(
             self.group_name,
             self.channel_name
